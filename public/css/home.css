@@ -1,0 +1,25 @@
+.allPage{
+/*background-image: url("/public/images/pexels-soo-ann-woon-3265437_v.png");*/
+/*    background-size: cover;*/
+}
+
+.rectangleContent{
+    background-color: #CB3B3B;
+}
+
+.partnersImage{
+    width: 15%;
+    height: 100%;
+}
+
+.partnersImageBig{
+    width: 8%;
+    height: 100%;
+}
+
+.roundedApiButton{
+    background: #ffffff;
+    padding:10px;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px -2px gray;
+}

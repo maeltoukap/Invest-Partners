@@ -32,3 +32,7 @@ Route::get('/secondSplashScreen', function(){
 Route::get('/login', function(){
     return view('authenficate.login');
 })-> name('login');
+
+Route::get('/home', function(){
+    return view('pages.home');
+})-> name('home');
