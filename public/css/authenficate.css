@@ -1,0 +1,63 @@
+body{
+    overflow: hidden;
+}
+.roundedBox{
+    /*background: red;*/
+    /*height: 178px;*/
+    /*width: 409px;*/
+    /*margin: 25px;*/
+    /*padding: 20px;*/
+    position: relative;
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    border-left: 0px;
+}
+.roundedBox:before {
+    content: "";
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: -15px;
+    right: -263px;
+    width: 300px;
+    height: 42rem;
+    border-radius: 70px;
+    /*border: 1px solid #ccc;*/
+}
+
+.textBox{
+    color: #fff;
+}
+
+.roundedApiButton{
+    background: #ffffff;
+    padding:10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px -2px gray;
+}
+
+/*.circle-img1{*/
+/*    position: relative;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    left: 132.5px;*/
+/*    top: 10px;*/
+/*    border-radius: 50%;*/
+/*    background-size: cover;*/
+/*    background-image: url("../../public/images/icons8-google-48.png");*/
+/*}*/
+/*.icon {*/
+/*    padding: -30px;*/
+/*    min-width: 80px;*/
+/*}*/
+
+input, select {
+    padding-left: 35px !important;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 1px 5px;
+    /*margin-bottom: 20px;*/
+    pointer-events: none;
+}
+
