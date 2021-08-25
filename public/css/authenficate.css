@@ -17,10 +17,10 @@ body{
     display: block;
     background: #fff;
     position: absolute;
-    top: -15px;
+    top: -7px;
     right: -263px;
     width: 300px;
-    height: 42rem;
+    height: 102%;
     border-radius: 70px;
     /*border: 1px solid #ccc;*/
 }

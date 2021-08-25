@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="position-relative d-flex p-5 align-items-center ms-5  w-50" style="margin-top: -20px">
+        <div class="position-relative d-flex p-5 align-items-center ms-5  w-50 justify-content-center" style="margin-top: -20px">
 
 
             {{-- min-vh-100 --}}

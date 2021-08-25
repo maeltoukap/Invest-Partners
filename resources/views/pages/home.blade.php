@@ -1,9 +1,11 @@
-@extends('base', ['pageTitle'=> 'home'])
-@section('cssLink')
-    <link href="{{asset('css/home.css')}}" rel="stylesheet">
-@endsection
-@section('baseContent')
-    <header>
+{{--@extends('base', ['pageTitle'=> 'home'])--}}
+{{--@extends('welcome')--}}
+{{--@section('cssLink')--}}
+{{--@endsection--}}
+@extends('welcome')
+@section('homeContent')
+    @yield('content')
+    <section>
         <h2 class="text-center fs-3 mt-4">Tous les secteurs porteurs</h2>
         <hr class="m-auto mb-5" style="width: 8%; height: 3px">
 
@@ -67,7 +69,7 @@
     {{--            </div>--}}
     {{--        <i class="fas fa-chevron-right mt-5" style="font-size: 33px"></i>--}}
     {{--    </div>--}}
-    </header>
+    </section>
 
     <section>
         <h2 class="text-center fs-3" style="margin-top: 100px">Projets populaires</h2>
