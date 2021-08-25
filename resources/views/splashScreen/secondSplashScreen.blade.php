@@ -34,14 +34,30 @@
                 </nav>
             </ul>
             <div class="linkBox d-inline-flex fs-6 fw-normal">
-                <div class="launchBtn">
-                    <a href="{{route('login')}}" class="text-white">Je suis porteur de projet</a>
-                </div>
-                <div class="vLine"></div>
-                <div class="signInBtn">
-                    <a href="{{route('login')}}" class="text-white">Connexion</a>
-                </div>
-
+                @if(session()->has('LoggedUser'))
+{{--                    <div class="vLine"></div>--}}
+                    <div class="signInBtn">
+                        <li class="nav-item dropdown list-unstyled">
+                            <a class="dropdown-toggle d-inline-block fs-5 text-decoration-none ms-3 text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-user list-unstyled"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Parametres</a></li>
+                                <li><a href="{{route('auth.logout')}}" class="dropdown-item">Deconnexion</a></li>
+                            </ul>
+                        </li>
+{{--                        <a href="{{route('auth.logout')}}" class="text-white">Logout</a>--}}
+                    </div>
+                @else
+                    <div class="launchBtn">
+                        <a href="{{route('login')}}" class="text-white">Je suis porteur de projet</a>
+                    </div>
+                    <div class="vLine"></div>
+                    <div class="signInBtn">
+                        <a href="{{route('login')}}" class="text-white">Connexion</a>
+                    </div>
+                @endif
             </div>
         </header>
         <div class="pageContent position-relative w-100 d-flex justify-content-between align-items-center">

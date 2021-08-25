@@ -37,27 +37,43 @@
 
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <form class="">
+                                <form action="{{route('auth.create')}}" method="post" class="">
+                                    @csrf
+                                    <div class="result">
+                                        @if(Session::get('success'))
+                                            <div class="alert alert-success">
+                                                {{Session::get('success')}}
+                                            </div>
+                                        @endif
+                                        @if(Session::get('fail'))
+                                            <div class="alert alert-danger">
+                                                {{Session::get('fail')}}
+                                            </div>
+                                        @endif
+                                    </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-user fs-4"></i>
-                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" placeholder="Votre nom">
+                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" name="name" placeholder="Votre nom" value="{{old('name')}}">
+                                        <span class="text-danger">@error('name'){{$message}} @enderror</span>
                                     </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-envelope fs-4"></i>
-                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" placeholder="Votre boite mail">
+                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="email" name="email" placeholder="Votre boite mail" value="{{old('email')}}">
+                                        <span class="text-danger">@error('email'){{$message}} @enderror</span>
                                     </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-lock-alt fs-4"></i>
-                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" placeholder="Mot de passe">
+                                        <input class=" w-100 border-end-0 border-start-0 border-top-0 border-dark" type="password" name="password" placeholder="Mot de passe" value="{{old('password')}}">
+                                        <span class="text-danger">@error('password'){{$message}} @enderror</span>
                                     </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-handshake fs-4"></i>
-                                        <select class=" w-100 border-end-0 border-start-0 border-top-0 border-dark border-2">
-                                            <option>Je suis</option>
-                                            <option>Mr</option>
-                                            <option>Mme</option>
-                                            <option>Mlle</option>
+                                        <select class=" w-100 border-end-0 border-start-0 border-top-0 border-dark border-2" name="type">
+                                            <option value="">Je suis</option>
+                                            <option value="Mr">Porteur de projet</option>
+                                            <option value="Mme">investisseur</option>
                                         </select>
+                                        <span class="text-danger">@error('type'){{$message}} @enderror</span>
                                     </div>
                                     <dib class="d-flex justify-content-between mb-4">
                                         <label for="">
@@ -66,18 +82,33 @@
                                         </label>
                                         <a href="#" class="text-decoration-none">Mot de passe oublié ?</a>
                                     </dib>
-                                    <input type="button" value="Envoyer" class="btn" style="width: 100%; background-color: #CB3B3B; color: #fff">
+                                    <input type="submit" value="Envoyer" class="btn" style="width: 100%; background-color: #CB3B3B; color: #fff">
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="pills-signIn" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                <form class="">
+                                <form action="{{route('auth.check')}}" method="post" class="">
+                                    @csrf
+                                    <div class="result">
+                                        @if(Session::get('success'))
+                                            <div class="alert alert-success">
+                                                {{Session::get('success')}}
+                                            </div>
+                                        @endif
+                                        @if(Session::get('fail'))
+                                            <div class="alert alert-danger">
+                                                {{Session::get('fail')}}
+                                            </div>
+                                        @endif
+                                    </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-envelope fs-4"></i>
-                                        <input class="form-control w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" placeholder="Votre boite mail">
+                                        <input class="form-control w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" name="email" placeholder="Votre boite mail" value="{{old('email')}}">
+                                        <span class="text-danger">@error('email'){{$message}} @enderror</span>
                                     </div>
                                     <div class="left-inner-addon d-block mb-4">
                                         <i class="far fa-lock-alt fs-4"></i>
-                                        <input class="form-control w-100 border-end-0 border-start-0 border-top-0 border-dark" type="text" placeholder="Mot de passe">
+                                        <input class="form-control w-100 border-end-0 border-start-0 border-top-0 border-dark" type="password" name="password" placeholder="Mot de passe" value="{{old('password')}}">
+                                        <span class="text-danger">@error('password'){{$message}} @enderror</span>
                                     </div>
                                     <dib class="d-flex justify-content-between mb-4">
                                         <label for="">
@@ -86,7 +117,7 @@
                                         </label>
                                         <a href="#" class="text-decoration-none">Mot de passe oublié ?</a>
                                     </dib>
-                                    <input type="button" value="Connection" class="btn" style="width: 100%; background-color: #CB3B3B; color: #fff">
+                                    <input type="submit" value="Connection" class="btn" style="width: 100%; background-color: #CB3B3B; color: #fff">
                                 </form>
                             </div>
                         </div>
