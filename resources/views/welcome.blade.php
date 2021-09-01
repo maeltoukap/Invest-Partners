@@ -545,7 +545,7 @@
                 </div>
                 <p class="text-white fs-4 fw-bold">Contact</p>
                 <div class="d-flex">
-                    <svg class="mt-3 me-2" xmlns="http://www.w3.org/2000/svg" width="32.231" height="37.229" viewBox="0 0 37.231 37.229">
+                    <svg class=" me-2" xmlns="http://www.w3.org/2000/svg" width="32.231" height="37.229" viewBox="0 0 37.231 37.229">
                         <g id="_003---Call" data-name="003---Call" transform="translate(0)">
                             <path id="Shape" d="M16.415,21.834A15.025,15.025,0,0,1,11.878,13.3a1.276,1.276,0,0,1,.367-1.068L15.12,9.361A1.284,1.284,0,0,0,15.3,7.773L10.723.663A1.284,1.284,0,0,0,9.059.2L1.709,3.657A1.277,1.277,0,0,0,1,4.932c.385,3.659,1.98,12.653,10.819,21.492S29.654,36.858,33.314,37.243a1.277,1.277,0,0,0,1.275-.706l3.462-7.35a1.284,1.284,0,0,0-.465-1.661l-7.109-4.577a1.284,1.284,0,0,0-1.589.18L26.013,26a1.276,1.276,0,0,1-1.068.367,15.025,15.025,0,0,1-8.531-4.537Z" transform="translate(-0.997 -0.021)" fill="#fff"/>
                             <path id="Shape-2" data-name="Shape" d="M40.2,23.479A1.284,1.284,0,0,1,38.912,22.2a9.639,9.639,0,0,0-9.628-9.628,1.284,1.284,0,1,1,0-2.568,12.209,12.209,0,0,1,12.2,12.2A1.284,1.284,0,0,1,40.2,23.479Z" transform="translate(-10.667 -3.581)" fill="#fff"/>
@@ -553,12 +553,12 @@
                         </g>
                     </svg>
                     <div class="text-white fs-5">
-                        <p>(+237) 698-55-62-14</p>
-                        <p style="margin-top: -7%">(+237) 655-85-07-14</p>
+                        <p>(+237) 694-22-79-33</p>
+{{--                        <p style="margin-top: -7%">(+237) 655-85-07-14</p>--}}
                     </div>
                 </div>
                 <div class="d-flex">
-                    <i class="fas fa-envelope text-white fs-3 me-2"></i>
+                    <i class="fas fa-envelope text-white fs-3 me-2 mb-3"></i>
                     <div class="text-white fs-5">
                         <a href="#" class="text-white">info@invest--partners.com</a>
                     </div>
@@ -576,7 +576,7 @@
                     </svg>
 
                     <div class="text-white fs-5">
-                        <p class="">BP: 07756 Douala, Cameroun</p>
+                        <p class="">BP 2308 Akwa-Douala</p>
                     </div>
                 </div>
             </div>
