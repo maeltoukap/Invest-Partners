@@ -18,7 +18,7 @@
 {{--        </svg>--}}
 
         {{--            <a href="#"><img src="#" alt="Web app logo" class="logo"></a>--}}
-        <a href="#"><p alt="Web app logo" class="logo fs-2">I&P</p></a>
+        <a href="#"><p class="logo fs-2"><img style="height: 50px" class="img-fluid" src="{{asset('images/logo/rs600Artboard_1@2x.png')}}" alt="Web app logo"></p></a>
         <ul class="navigation position-relative d-flex text-start list-unstyled">
             <nav class="navbar navbar-expand-lg navbar-dark bg-none">
                 <div class="container-fluid">

@@ -102,71 +102,6 @@
 
 
     </section>
-    <section>
-        <h2 class="text-center fs-3 mt-4">Tous les secteurs porteurs</h2>
-        <hr class="m-auto mb-5" style="width: 8%; height: 3px">
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-around">
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">Agriculture</p>
-                        </div>
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">Agriculture</p>
-                        </div>
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">Agriculture</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-around">
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">hjshdsjhdj</p>
-                        </div>
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">kjsdfdjshjdf</p>
-                        </div>
-                        <div>
-                            <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>
-                            <p class="text-center">jdsjhsdjhk</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <i class="fas fa-chevron-left carousel-control-prev-icon" style="font-size: 33px; color: black"></i>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <i class="fas fa-chevron-right carousel-control-next-icon" style="font-size: 33px; color: black"></i>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        {{--    <div class="d-flex justify-content-around">--}}
-        {{--        <i class="fas fa-chevron-left mt-5" style="font-size: 33px"></i>--}}
-        {{--            <div>--}}
-        {{--                <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>--}}
-        {{--                <p class="text-center">Agriculture</p>--}}
-        {{--            </div>--}}
-        {{--            <div>--}}
-        {{--                <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>--}}
-        {{--                <p class="text-center">Agriculture</p>--}}
-        {{--            </div>--}}
-        {{--            <div>--}}
-        {{--                <div class="bg-danger m-auto mt-2" style="width: 10%; padding: 50px; border-radius: 22px"></div>--}}
-        {{--                <p class="text-center">Agriculture</p>--}}
-        {{--            </div>--}}
-        {{--        <i class="fas fa-chevron-right mt-5" style="font-size: 33px"></i>--}}
-        {{--    </div>--}}
-    </section>
 
 
 
@@ -196,6 +131,7 @@
                     lead-in to additional content. This content is a
                 </p>
             </div>
+            <div class="parallelogram"></div>
         </div>
     </section>
 
@@ -216,7 +152,7 @@
             </div>
             <div class="">
                 <div class="w-75 m-auto">
-                    <i class="fas fa-plus-circle fs-3 text-danger iconPlus"></i>
+                    <a href="#" class="fas fa-plus-circle fs-3 text-danger iconPlus"></a>
                     <img class="img-fluid" src="{{asset('images/experts/pexels-dellon-thomas-2474307.png')}}">
                 </div>
                 <div class="w-75 m-auto">
@@ -227,7 +163,7 @@
             </div>
             <div class="">
                 <div class="w-75 m-auto">
-                    <i class="fas fa-plus-circle fs-3 text-danger iconPlus"></i>
+                    <a href="#" class="fas fa-plus-circle fs-3 text-danger iconPlus"></a>
                     <img class="img-fluid" src="{{asset('images/experts/pexels-emmy-e-2381069.png')}}">
                 </div>
                 <div class="w-75 m-auto">
@@ -238,7 +174,7 @@
             </div>
             <div class="">
                 <div class="w-75 m-auto">
-                    <i class="fas fa-plus-circle fs-3 text-danger iconPlus"></i>
+                    <a href="#" class="fas fa-plus-circle fs-3 text-danger iconPlus"></a>
                     <img class="img-fluid" src="{{asset('images/experts/pexels-sandy-torchon-3973552.png')}}">
                 </div>
                 <div class="w-75 m-auto">
@@ -247,24 +183,6 @@
                     <hr class="text-danger" style="height: 3px">
                 </div>
             </div>
-{{--            <div class="">--}}
-{{--                <img class="img-fluid" src="{{asset('images/experts/pexels-dellon-thomas-2216607.png')}}" style="width: 70%">--}}
-{{--                <p class="text-danger fs-3">Nom prenom</p>--}}
-{{--                <p style="font-size: 13.5px">Lorem ipsum dolor sit amet, consetetur</p>--}}
-{{--                <hr class="" style="width: 70%; height: 3px">--}}
-{{--            </div>--}}
-{{--            <div class="">--}}
-{{--                <img class="img-fluid" src="{{asset('images/experts/pexels-dellon-thomas-2216607.png')}}" style="width: 70%">--}}
-{{--                <p class="text-danger fs-3">Nom prenom</p>--}}
-{{--                <p style="font-size: 13.5px">Lorem ipsum dolor sit amet, consetetur</p>--}}
-{{--                <hr class="" style="width: 70%; height: 3px">--}}
-{{--            </div>--}}
-{{--            <div class="">--}}
-{{--                <img class="img-fluid" src="{{asset('images/experts/pexels-dellon-thomas-2216607.png')}}" style="width: 70%">--}}
-{{--                <p class="text-danger fs-3">Nom prenom</p>--}}
-{{--                <p style="font-size: 13.5px">Lorem ipsum dolor sit amet, consetetur</p>--}}
-{{--                <hr class="" style="width: 70%; height: 3px">--}}
-{{--            </div>--}}
         </div>
     </section>
 
@@ -363,24 +281,96 @@
         <hr class="m-auto " style="width: 8%; height: 3px">
         <div class="d-flex mt-5 justify-content-around" style=" margin-left: 12%">
             <div class="d-flex flex-row">
-                <div class="d-block w-75 ms-3">
+                <div class="contain d-block w-75 ms-3">
+                    <div class="overlay">
+                        <p class="overlayTitle fw-bold align-text-top">Titre de l'evenement</p>
+                        <p class="overlayText">
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua.
+                            At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd
+                            gubergren, no
+                        </p>
+                        <i class="overlayTextBottom text-danger far fa-calendar-alt"><span class="text-white"> 25 - 9 - 21 | 12H00</span></i>
+                        <div class="d-flex">
+                            <a href="#" class="overlayTextBtn btn bg-none border border-2 border-danger py-1">Participer</a>
+                            <a href="#" class="overlayTextBtnFlex text-white fs-6">En savoir plus...</a>
+                        </div>
+                    </div>
                     <img class="eventsImages w-100" style="" src="{{asset('images/events/shape_eq@2x.png')}}">
                 </div>
             </div>
             <div class="d-flex">
-                <div class="d-block w-75 ms-3">
+                <div class="contain d-block w-75 ms-3">
+                    <div class="overlay">
+                        <p class="overlayTitle fw-bold align-text-top">Titre de l'evenement</p>
+                        <p class="overlayText">
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua.
+                            At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd
+                            gubergren, no
+                        </p>
+                        <i class="overlayTextBottom text-danger far fa-calendar-alt"><span class="text-white"> 25 - 9 - 21 | 12H00</span></i>
+                        <div class="d-flex">
+                            <a href="#" class="overlayTextBtn btn bg-none border border-2 border-danger py-1">Participer</a>
+                            <a href="#" class="overlayTextBtnFlex text-white fs-6">En savoir plus...</a>
+                        </div>
+                    </div>
                     <img class="eventsImages w-100" style="" src="{{asset('images/events/shape_eq@2x.png')}}">
                 </div>
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-around" style="margin-left: 12%">
             <div class="d-flex flex-row">
-                <div class="d-block w-75 ms-3">
+                <div class="contain d-block w-75 ms-3">
+                    <div class="overlay">
+                        <p class="overlayTitle fw-bold align-text-top">Titre de l'evenement</p>
+                        <p class="overlayText">
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua.
+                            At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd
+                            gubergren, no
+                        </p>
+                        <i class="overlayTextBottom text-danger far fa-calendar-alt"><span class="text-white"> 25 - 9 - 21 | 12H00</span></i>
+                        <div class="d-flex">
+                            <a href="#" class="overlayTextBtn btn bg-none border border-2 border-danger py-1">Participer</a>
+                            <a href="#" class="overlayTextBtnFlex text-white fs-6">En savoir plus...</a>
+                        </div>
+                    </div>
                     <img class="eventsImages  w-100" style="" src="{{asset('images/events/shape_fh.png')}}">
                 </div>
             </div>
             <div class="d-flex">
-                <div class="d-block w-75 ms-3">
+                <div class="contain d-block w-75 ms-3">
+                    <div class="overlay">
+                        <p class="overlayTitle fw-bold align-text-top">Titre de l'evenement</p>
+                        <p class="overlayText">
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua.
+                            At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd
+                            gubergren, no
+                        </p>
+                        <i class="overlayTextBottom text-danger far fa-calendar-alt"><span class="text-white"> 25 - 9 - 21 | 12H00</span></i>
+                        <div class="d-flex">
+                            <a href="#" class="overlayTextBtn btn bg-none border border-2 border-danger py-1">Participer</a>
+                            <a href="#" class="overlayTextBtnFlex text-white fs-6">En savoir plus...</a>
+                        </div>
+                    </div>
                     <img class="eventsImages w-100" style="" src="{{asset('images/events/shape_gz.png')}}">
                 </div>
             </div>
@@ -388,55 +378,35 @@
     </section>
 
     <footer class="bg-dark" style="margin-top: 15%">
-        <div class="d-flex w-50 justify-content-center mt-5">
+        <div class="d-flex w-50 justify-content-center mt-5" style="transform: translateY(60%)">
 
-            <div class="bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
-                <i style="margin-left: 7%;" class="fab fa-facebook-f fs-3"></i>
+            <div class="footerIconContain bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
+                <i style="margin-left: 7%;" class="footerIcon fab fa-facebook-f fs-3"></i>
             </div>
-            <div class="bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
-                <i class="fab fa-linkedin-in fs-3"></i>
+            <div class="footerIconContain bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
+                <i class="footerIcon fab fa-linkedin-in fs-3"></i>
             </div>
-            <div class="bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
-                <i class="fab fa-twitter fs-3"></i>
+            <div class="footerIconContain bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
+                <i class="footerIcon fab fa-twitter fs-3"></i>
             </div>
-            <div class="bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
-                <i style="margin-left: 7%;" class="fab fa-instagram fs-3"></i>
+            <div class="footerIconContain bg-white m-auto mt-5" style="width: 7%; padding: 10px; border-radius: 10px">
+                <i style="margin-left: 7%;" class="footerIcon fab fa-instagram fs-3"></i>
             </div>
         </div>
 
-        <div class="d-block" style="width: 25%">
+        <div class="d-block me-5" style="width: 25%; position: relative; float: right">
             <p class="text-white fs-5 fw-bold">Restez à l'écoute de notre actualité</p>
             <div class="d-flex">
-                <form id="my-form">
+                <form id="my-form" class="m-auto">
                     <input placeholder="Votre adresse email" type="text" />
                     <button type="submit" class="bg-danger">OK</button>
                 </form>
             </div>
         </div>
-{{--        <form id="my-form" class="d-flex justify-content-around">--}}
-{{--            <div class="d-block">--}}
-{{--                <p class="text-white fs-5">Restez à l'écoute de notre actualité</p>--}}
-{{--                <div class="d-flex w-50 justify-content-between mt-3"></div>--}}
-{{--                <div class="w-25 d-flex">--}}
-{{--                    <input type="text" />--}}
-{{--                    <button type="submit">my button</button>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--        </form>--}}
-
-{{--        <div class="d-flex justify-content-around">--}}
-{{--            <div class="d-flex w-50 justify-content-between" style="margin-top: -60px">--}}
-{{--            </div>--}}
-{{--            <div class="input-group w-25">--}}
-{{--                <input type="text" style="border-radius: 60px" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">--}}
-{{--                <button style="border-radius: 60px" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-        <div class="d-flex" style="margin-top: 10%">
+        <div class="d-flex ms-3 me-3" style="margin-top: 10%">
             <div class="d-block" style="width: 25%">
                 <p class="text-white fs-4 fw-bold">Qui somme nous ?</p>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(15.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -444,9 +414,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Invest and Partners</p>
+                    <p class="mt-1 fs-5 ms-2">Invest and Partners</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -454,9 +424,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Chiffres clés</p>
+                    <p class="mt-1 fs-5 ms-2">Chiffres clés</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -464,9 +434,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Management</p>
+                    <p class="mt-1 fs-5 ms-2">Management</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -474,12 +444,12 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Commité d'investissement</p>
+                    <p class="mt-1 fs-5 ms-2">Commité d'investissement</p>
                 </div>
             </div>
             <div class="d-block" style="width: 25%">
                 <p class="text-white fs-4 fw-bold">Nos Projets</p>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(15.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -487,9 +457,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Agro-Industrie</p>
+                    <p class="mt-1 fs-5 ms-2">Agro-Industrie</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -497,9 +467,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum dolor sit.</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum dolor sit.</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -507,9 +477,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -517,12 +487,12 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum</p>
                 </div>
             </div>
             <div class="d-block" style="width: 25%">
                 <p class="text-white fs-4 fw-bold">Comment lancer son projet</p>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(15.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -530,9 +500,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Comment ça marche</p>
+                    <p class="mt-1 fs-5 ms-2">Comment ça marche</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -540,9 +510,9 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum dolor sit.</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum dolor sit.</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
                             <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
@@ -550,17 +520,17 @@
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex footerLink">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40.439" height="40.439" viewBox="0 0 40.439 40.439">
                         <g id="send" transform="translate(18.805 0) rotate(41)">
-                            <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
+                            <g class="svgIcon" id="Group_34" data-name="Group 34" transform="translate(0 0)">
                                 <path id="Path_603" data-name="Path 603" d="M28.418.246A.84.84,0,0,0,27.513.06L.528,10.854a.84.84,0,0,0-.055,1.535L11.114,17.55l5.161,10.641a.84.84,0,0,0,.755.473h.03a.84.84,0,0,0,.75-.527L28.6,1.152A.84.84,0,0,0,28.418.246ZM2.916,11.707,24.338,3.139,11.572,15.905Zm14.04,14.04-4.2-8.655L25.525,4.327Z" fill="#fff"/>
                             </g>
                         </g>
                     </svg>
-                    <p class="text-white mt-1 fs-5 ms-2">Lorem ipsum</p>
+                    <p class="mt-1 fs-5 ms-2">Lorem ipsum</p>
                 </div>
             </div>
             <div class="d-block" style="width: 25%">
@@ -590,7 +560,7 @@
                 <div class="d-flex">
                     <i class="fas fa-envelope text-white fs-3 me-2"></i>
                     <div class="text-white fs-5">
-                        <p class="">info@invest--partners.com</p>
+                        <a href="#" class="text-white">info@invest--partners.com</a>
                     </div>
                 </div>
                 <div class="d-flex">
@@ -610,6 +580,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <p class="text-white text-center fs-5">&copy; By House Innovation SARL</p>
         </div>
     </footer>
 @endsection

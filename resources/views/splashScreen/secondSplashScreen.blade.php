@@ -1,11 +1,12 @@
 @extends('welcome')
+
 @section('content')
         <div class="circle"></div>
         {{-- <img class="circleSpan" src="{{asset('images/pexels-pixabay-534220@2x.png')}}"> --}}
 
         <header class="position-absolute top-0 start-0 w-100 align-items-center d-inline-flex">
 {{--            <a href="#"><img src="#" alt="Web app logo" class="logo"></a>--}}
-            <a href="#"><p alt="Web app logo" class="logo fs-2">I&P</p></a>
+            <a href="#"><p class="logo fs-2"><img style="height: 50px" class="img-fluid" src="{{asset('images/logo/rs600Artboard_1@2x.png')}}" alt="Web app logo"></p></a>
             <ul class="navigation position-relative d-flex text-start list-unstyled">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-none">
                     <div class="container-fluid">

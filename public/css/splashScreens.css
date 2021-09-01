@@ -8,6 +8,7 @@ body a {
 header{
     justify-content: space-around;
 }
+
 .allPage{
     /*position: relative;*/
     /*width: 100%;*/
@@ -237,4 +238,130 @@ nav #marker{
     border-left-width: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.contain {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(128,128,128,.6);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.contain:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.overlayText {
+    width: 90%;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlayTitle {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayTextBottom{
+    /*color: white;*/
+    font-size: 17px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayTextBtn{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayTextBtnFlex{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    left: 62.5%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.parallelogram{
+    position: absolute;
+    left: 27%;
+    width: 15%;
+    height: 50%;
+    background: #585B60;
+    margin-top: 5.6%;
+    clip-path: polygon(61% 20%, 80% 20%, 21% 100%, 0% 100%);
+}
+
+@media screen and (min-width: 1200px) {
+    .parallelogram{
+        position: absolute;
+        left: 20%;
+        width: 15%;
+        height: 20%;
+        background: #585B60;
+        margin-top: 8.8%;
+        clip-path: polygon(41% 20%, 60% 20%, 21% 100%, 0% 100%);
+    }
+}
+
+.footerIconContain:hover .footerIcon{
+    color: #CB3B3B;
+}
+
+.footerLink p{
+    color: #ffffff;
+}
+.footerLink:hover{
+    cursor: pointer;
+    color: #CB3B3B;
+    transform: translateX(5%);
+}
+.footerLink:hover p{
+    color: #CB3B3B;
 }
