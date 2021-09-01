@@ -189,3 +189,52 @@ nav #marker{
         /* clip-path: circle(70% at right -50%); */
     }
 }
+
+.iconPlus{
+    top: 100%;
+    left: 90%;
+    position: relative;
+    transform: translate(-50%, 140%);
+    z-index: 9999;
+}
+
+.statImg{
+    /*top: 100%;*/
+    /*left: 20%;*/
+    position: absolute;
+    margin-top: -50%;
+    /*transform: translateY(-110%);*/
+    z-index: 9999;
+}
+
+#my-form {
+    display: flex;
+    flex-direction: row;
+}
+
+#my-form input {
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 7px;
+}
+
+#my-form button {
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+#my-form input {
+    flex-grow: 2;
+    border-right-width: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#my-form button {
+    color: white;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

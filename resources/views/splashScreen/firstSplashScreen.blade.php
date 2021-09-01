@@ -69,6 +69,8 @@
                 Cum sociis natoque penatibus et magnis dis.
             </p>
             <a href="#" class="d-inline-block">Voir les projets</a>
+
+            <a href="#" class="d-inline-block mx-4 bg-dark">Parler à un conseillé</a>
         </div>
     </div>
 @endsection
